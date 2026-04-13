@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cosmos-950: #0a0a1a;
+  --color-cosmos-900: #0f0f2e;
+  --color-cosmos-800: #1a1a3e;
+  --color-cosmos-700: #2a2a5e;
+  --color-cosmos-400: #7c7cba;
+  --color-cosmos-300: #9e9ed4;
+  --color-cosmos-200: #c4c4e8;
+  --color-cosmos-100: #e8e8f5;
+  --color-accent: #60a5fa;
+  --color-accent-hover: #93c5fd;
+}
+
+body {
+  background-color: var(--color-cosmos-950);
+  color: var(--color-cosmos-100);
+}
