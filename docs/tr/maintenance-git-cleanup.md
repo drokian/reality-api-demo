@@ -26,4 +26,5 @@ Bu rehber, demo reposunda duzenli git hijyeni icin kullanilir.
 ## Branch Hatirlatmasi
 
 Branch isimlendirme ve PR hedef kurallari workspace dokumaninda tanimlandigi gibi uygulanmalidir.
-Feature/docs degisikliklerinde taban branch tipik olarak `develop` kabul edilir.
+Feature/docs degisikliklerinde deponun aktif entegrasyon branch'i hedeflenmelidir.
+Production deploy/release akisinda release branch (`main`) pull request ile kullanilmalidir.

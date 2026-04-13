@@ -26,4 +26,5 @@ When updating `src/data/snapshot.json`:
 ## Branching Reminder
 
 Use branch naming and PR target rules defined in the workspace documentation.
-For feature/docs changes, base branch is typically `develop` in workspace workflow.
+For feature/docs changes, target the repository's active integration branch.
+For production deploy/release flow, use the release branch (`main`) through pull requests.
